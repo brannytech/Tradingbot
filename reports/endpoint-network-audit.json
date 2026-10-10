@@ -1,0 +1,56 @@
+{
+  "credentials_used": false,
+  "results": [
+    {
+      "host": "api-demo.bybit.com",
+      "dns": "FAILED",
+      "dns_errno": 11001
+    },
+    {
+      "host": "api-demo.bybitglobal.com",
+      "dns": "OK",
+      "error_type": "URLError",
+      "reason_type": "SSLCertVerificationError",
+      "http": null,
+      "tls_verify_code": 62
+    },
+    {
+      "host": "api.bybitglobal.com",
+      "dns": "OK",
+      "http": 200,
+      "final_host": "api.bybitglobal.com",
+      "content_type": "application/json; charset=utf-8",
+      "retCode": 0,
+      "result_fields": [
+        "timeSecond",
+        "timeNano"
+      ]
+    },
+    {
+      "host": "api2.bybitglobal.com",
+      "dns": "OK",
+      "http": 200,
+      "final_host": "api2.bybitglobal.com",
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "host": "www.bybitglobal.com",
+      "dns": "OK",
+      "http": 200,
+      "final_host": "www.bybitglobal.com",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "host": "api.bytick.com",
+      "dns": "OK",
+      "http": 200,
+      "final_host": "api.bytick.com",
+      "content_type": "application/json; charset=utf-8",
+      "retCode": 0,
+      "result_fields": [
+        "timeSecond",
+        "timeNano"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2518 @@
+{
+  "agent": "volume_profile",
+  "version": "1.0.0",
+  "status": "EXPERIMENTAL",
+  "instrument": "BTCUSDT",
+  "market": "linear",
+  "timeframe": 300,
+  "horizon": 12,
+  "trades": [
+    {
+      "start": 1799752200,
+      "end": 1799754000,
+      "entry": 60764.035129115386,
+      "exit": 61031.375236487664,
+      "stop": 60581.7100723781,
+      "target": 61055.79755550987,
+      "direction": "LONG",
+      "net_return": 0.0023889941061132967,
+      "bars": 6,
+      "cost": 0.0028106496437498634,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799752200,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799754900,
+      "end": 1799755500,
+      "entry": 61197.115704470474,
+      "exit": 61422.56299474027,
+      "stop": 61398.00379322298,
+      "target": 60868.8054521809,
+      "direction": "SHORT",
+      "net_return": -0.00568972016004052,
+      "bars": 2,
+      "cost": 0.0028057672862071667,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799754900,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799763600,
+      "end": 1799767200,
+      "entry": 62568.230095269806,
+      "exit": 62359.53365329693,
+      "stop": 62762.707367074305,
+      "target": 62254.38747254347,
+      "direction": "SHORT",
+      "net_return": 0.001326337267679749,
+      "bars": 12,
+      "cost": 0.002809164498234086,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799763600,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799767500,
+      "end": 1799770200,
+      "entry": 62266.237952887735,
+      "exit": 62025.37189849057,
+      "stop": 62436.44578706907,
+      "target": 62000.571669822646,
+      "direction": "SHORT",
+      "net_return": 0.0018628184772097303,
+      "bars": 9,
+      "cost": 0.002805506674847942,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799767500,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799770800,
+      "end": 1799773200,
+      "entry": 62008.61475702671,
+      "exit": 62207.655991176354,
+      "stop": 62182.782878025144,
+      "target": 61734.71862878377,
+      "direction": "SHORT",
+      "net_return": -0.00522143970838283,
+      "bars": 8,
+      "cost": 0.002811543229811904,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799770800,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799775300,
+      "end": 1799777100,
+      "entry": 62473.610318327774,
+      "exit": 62749.13680836022,
+      "stop": 62285.82304549057,
+      "target": 62774.246506963005,
+      "direction": "LONG",
+      "net_return": 0.002399625731207181,
+      "bars": 6,
+      "cost": 0.002810660286017224,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799775300,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799778600,
+      "end": 1799780700,
+      "entry": 63133.052905059616,
+      "exit": 63442.52824474438,
+      "stop": 62927.75696626637,
+      "target": 63467.91541090875,
+      "direction": "LONG",
+      "net_return": 0.0028897606715120308,
+      "bars": 7,
+      "cost": 0.002812193620959138,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799778600,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799781600,
+      "end": 1799785200,
+      "entry": 63507.05720871816,
+      "exit": 63315.74525245332,
+      "stop": 63713.362946157125,
+      "target": 63170.684698076366,
+      "direction": "SHORT",
+      "net_return": 0.001002964369443509,
+      "bars": 12,
+      "cost": 0.0028094875480824738,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799781600,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799787300,
+      "end": 1799789400,
+      "entry": 62947.76234776077,
+      "exit": 62628.94296835832,
+      "stop": 63157.476588660575,
+      "target": 62603.90140779521,
+      "direction": "SHORT",
+      "net_return": 0.0030625978239039757,
+      "bars": 7,
+      "cost": 0.0028022268420007618,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799787300,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799790000,
+      "end": 1799791200,
+      "entry": 62617.43625645969,
+      "exit": 62374.78884412867,
+      "stop": 62399.74874362612,
+      "target": 62977.70040297073,
+      "direction": "LONG",
+      "net_return": -0.005875368993218009,
+      "bars": 4,
+      "cost": 0.0028002915892627114,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799790000,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799792700,
+      "end": 1799794800,
+      "entry": 62480.20246693528,
+      "exit": 62700.931316064096,
+      "stop": 62675.86097167543,
+      "target": 62163.89170291348,
+      "direction": "SHORT",
+      "net_return": -0.005543605078821001,
+      "bars": 7,
+      "cost": 0.0028108244472981893,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799792700,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799802600,
+      "end": 1799805300,
+      "entry": 63163.9071030022,
+      "exit": 62872.08227860166,
+      "stop": 63360.30241356838,
+      "target": 62846.94350120118,
+      "direction": "SHORT",
+      "net_return": 0.002615365023580026,
+      "bars": 9,
+      "cost": 0.0028047548800963235,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799802600,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799806800,
+      "end": 1799808000,
+      "entry": 62461.85516932484,
+      "exit": 62138.25980536946,
+      "stop": 62673.56764413601,
+      "target": 62113.414439593624,
+      "direction": "SHORT",
+      "net_return": 0.0031817017075792845,
+      "bars": 4,
+      "cost": 0.002798985978980107,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799806800,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799808300,
+      "end": 1799809500,
+      "entry": 62109.5089189743,
+      "exit": 61872.46209648945,
+      "stop": 61897.2209848834,
+      "target": 62459.58317709736,
+      "direction": "LONG",
+      "net_return": -0.005816944770761807,
+      "bars": 4,
+      "cost": 0.0028003500719678727,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799808300,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799809800,
+      "end": 1799811600,
+      "entry": 61881.14463324346,
+      "exit": 61584.86560767669,
+      "stop": 62078.739738526674,
+      "target": 61560.241511072265,
+      "direction": "SHORT",
+      "net_return": 0.0027864102901428286,
+      "bars": 6,
+      "cost": 0.0028014621275822753,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799809800,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799814000,
+      "end": 1799817600,
+      "entry": 61428.27649553291,
+      "exit": 61629.57429541597,
+      "stop": 61604.93232248698,
+      "target": 61148.70827079107,
+      "direction": "SHORT",
+      "net_return": -0.005292733618431363,
+      "bars": 12,
+      "cost": 0.0028157769566617696,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799814000,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799820300,
+      "end": 1799823900,
+      "entry": 61790.308350755055,
+      "exit": 61732.752816534965,
+      "stop": 61621.52558106625,
+      "target": 62053.75516760078,
+      "direction": "LONG",
+      "net_return": -0.002943033933565763,
+      "bars": 12,
+      "cost": 0.0028115685346010353,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799820300,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799826000,
+      "end": 1799828400,
+      "entry": 61363.965147488794,
+      "exit": 61076.35006587683,
+      "stop": 61556.81618648703,
+      "target": 61051.92929415917,
+      "direction": "SHORT",
+      "net_return": 0.0026833891784306635,
+      "bars": 8,
+      "cost": 0.0028036462978570454,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799826000,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799833800,
+      "end": 1799837400,
+      "entry": 60380.15332803643,
+      "exit": 60394.92977635267,
+      "stop": 60576.10553520937,
+      "target": 60060.73409175543,
+      "direction": "SHORT",
+      "net_return": -0.002257468320702944,
+      "bars": 12,
+      "cost": 0.002812744723597106,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799833800,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799841000,
+      "end": 1799844600,
+      "entry": 60840.13610315487,
+      "exit": 61012.5079499165,
+      "stop": 60651.817681368644,
+      "target": 61143.793974992244,
+      "direction": "LONG",
+      "net_return": 0.0008178597911566177,
+      "bars": 12,
+      "cost": 0.0028153331929841405,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799841000,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799845200,
+      "end": 1799848800,
+      "entry": 60987.41168046486,
+      "exit": 60833.104873522185,
+      "stop": 61156.866095067075,
+      "target": 60721.717030948865,
+      "direction": "SHORT",
+      "net_return": 0.000520172062865923,
+      "bars": 12,
+      "cost": 0.002809969858079055,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799845200,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799851500,
+      "end": 1799853900,
+      "entry": 60345.259021173,
+      "exit": 60069.026203569076,
+      "stop": 60531.60607568535,
+      "target": 60045.00820028896,
+      "direction": "SHORT",
+      "net_return": 0.00257378388526224,
+      "bars": 8,
+      "cost": 0.0028037557936544167,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799851500,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799854200,
+      "end": 1799856900,
+      "entry": 60139.49913465476,
+      "exit": 60404.83266149921,
+      "stop": 59958.677298607814,
+      "target": 60429.00426320449,
+      "direction": "LONG",
+      "net_return": 0.00239818071848224,
+      "bars": 9,
+      "cost": 0.0028137869676861686,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799854200,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799859900,
+      "end": 1799861100,
+      "entry": 61037.71715199361,
+      "exit": 61353.00155756829,
+      "stop": 60831.19145159419,
+      "target": 61377.55257859973,
+      "direction": "LONG",
+      "net_return": 0.0031560709022578877,
+      "bars": 4,
+      "cost": 0.002809332069638563,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799859900,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799861700,
+      "end": 1799863200,
+      "entry": 61419.396409804205,
+      "exit": 61652.34951216274,
+      "stop": 61627.69843278963,
+      "target": 61076.525132632625,
+      "direction": "SHORT",
+      "net_return": -0.005801827464935099,
+      "bars": 5,
+      "cost": 0.0028090011596386298,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799861700,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799867100,
+      "end": 1799869200,
+      "entry": 61958.58802030902,
+      "exit": 61749.01506234692,
+      "stop": 61773.72455216779,
+      "target": 62253.994379198084,
+      "direction": "LONG",
+      "net_return": -0.005386377467258323,
+      "bars": 7,
+      "cost": 0.0028039091983978063,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799867100,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799871000,
+      "end": 1799872800,
+      "entry": 61610.52383561116,
+      "exit": 61402.014407696326,
+      "stop": 61426.585041713006,
+      "target": 61904.49835603169,
+      "direction": "LONG",
+      "net_return": -0.005387180813747095,
+      "bars": 6,
+      "cost": 0.002802865684871124,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799871000,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799873700,
+      "end": 1799876400,
+      "entry": 61263.73963551729,
+      "exit": 61471.524766333234,
+      "stop": 61446.94598793806,
+      "target": 60970.87283660072,
+      "direction": "SHORT",
+      "net_return": -0.005404416131739492,
+      "bars": 9,
+      "cost": 0.002812766649482257,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799873700,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799877600,
+      "end": 1799878500,
+      "entry": 61513.40133966921,
+      "exit": 61723.537030162326,
+      "stop": 61698.857487167465,
+      "target": 61216.33466452823,
+      "direction": "SHORT",
+      "net_return": -0.00542263719738454,
+      "bars": 3,
+      "cost": 0.0028065410961012833,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799877600,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799879100,
+      "end": 1799880000,
+      "entry": 61719.18246454986,
+      "exit": 61925.825383215095,
+      "stop": 61901.06495723221,
+      "target": 61429.51013520501,
+      "direction": "SHORT",
+      "net_return": -0.005354588083664687,
+      "bars": 3,
+      "cost": 0.002806473114968696,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799879100,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799887800,
+      "end": 1799889900,
+      "entry": 62800.80687454116,
+      "exit": 62536.915607236166,
+      "stop": 62982.95045271189,
+      "target": 62511.91084289901,
+      "direction": "SHORT",
+      "net_return": 0.0021989466241885357,
+      "bars": 7,
+      "cost": 0.0028030896304120662,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799887800,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799891700,
+      "end": 1799893200,
+      "entry": 62250.28057388469,
+      "exit": 61975.25320716189,
+      "stop": 62437.54946623976,
+      "target": 61950.47301795471,
+      "direction": "SHORT",
+      "net_return": 0.0024173001525965064,
+      "bars": 5,
+      "cost": 0.002800790242937799,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799891700,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799894100,
+      "end": 1799897700,
+      "entry": 61811.34206679106,
+      "exit": 61878.52143688162,
+      "stop": 62016.02139689345,
+      "target": 61476.18669838315,
+      "direction": "SHORT",
+      "net_return": -0.003100432201633614,
+      "bars": 12,
+      "cost": 0.002813586845356277,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799894100,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799898000,
+      "end": 1799899800,
+      "entry": 61831.26761079851,
+      "exit": 62025.202737610154,
+      "stop": 62000.40257657952,
+      "target": 61567.224891254235,
+      "direction": "SHORT",
+      "net_return": -0.005145908451779053,
+      "bars": 6,
+      "cost": 0.0028093865219298493,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799898000,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799902500,
+      "end": 1799904600,
+      "entry": 62513.302510165195,
+      "exit": 62792.77669251388,
+      "stop": 62323.50885390767,
+      "target": 62817.9038540555,
+      "direction": "LONG",
+      "net_return": 0.002458873084762611,
+      "bars": 7,
+      "cost": 0.0028117623020534827,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799902500,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799904900,
+      "end": 1799908500,
+      "entry": 62956.447749167644,
+      "exit": 62732.76156990053,
+      "stop": 62757.86471578685,
+      "target": 63278.09628564236,
+      "direction": "LONG",
+      "net_return": -0.0055619774733505975,
+      "bars": 12,
+      "cost": 0.0028089469694961454,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799904900,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799912700,
+      "end": 1799913300,
+      "entry": 61942.65053135349,
+      "exit": 61713.599777641255,
+      "stop": 61738.295095679525,
+      "target": 62277.05994264782,
+      "direction": "LONG",
+      "net_return": -0.005696172962944796,
+      "bars": 2,
+      "cost": 0.002798385545916305,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799912700,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799913900,
+      "end": 1799916000,
+      "entry": 61624.29722649495,
+      "exit": 61382.33062065728,
+      "stop": 61406.893378008484,
+      "target": 61985.18533463163,
+      "direction": "LONG",
+      "net_return": -0.005929845758332678,
+      "bars": 7,
+      "cost": 0.0028033651860944284,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799913900,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799917200,
+      "end": 1799920800,
+      "entry": 61374.56452376652,
+      "exit": 61449.184304561044,
+      "stop": 61174.19319065197,
+      "target": 61701.687160578884,
+      "direction": "LONG",
+      "net_return": -0.0007979062738830562,
+      "bars": 12,
+      "cost": 0.002813715809535653,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799917200,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799921100,
+      "end": 1799924700,
+      "entry": 61584.65760102598,
+      "exit": 61773.03059230359,
+      "stop": 61396.00374781822,
+      "target": 61888.09326713641,
+      "direction": "LONG",
+      "net_return": 0.0010432061712590899,
+      "bars": 12,
+      "cost": 0.0028155587649361952,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799921100,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799925300,
+      "end": 1799928900,
+      "entry": 61730.46223614414,
+      "exit": 61644.4111355295,
+      "stop": 61907.319958244465,
+      "target": 61450.85298910574,
+      "direction": "SHORT",
+      "net_return": -0.000617124870849894,
+      "bars": 12,
+      "cost": 0.002811106018851998,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799925300,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799929500,
+      "end": 1799930700,
+      "entry": 61530.71646304054,
+      "exit": 61326.29797869507,
+      "stop": 61350.83831402067,
+      "target": 61816.66542425936,
+      "direction": "LONG",
+      "net_return": -0.00532306294481728,
+      "bars": 4,
+      "cost": 0.002800844448170019,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799929500,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799931300,
+      "end": 1799932200,
+      "entry": 61251.80904542504,
+      "exit": 61048.65600824851,
+      "stop": 61073.08524234544,
+      "target": 61535.783869842446,
+      "direction": "LONG",
+      "net_return": -0.005316494634337599,
+      "bars": 3,
+      "cost": 0.0027998083136793416,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799931300,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799938500,
+      "end": 1799941500,
+      "entry": 60425.87250406276,
+      "exit": 60695.79112235787,
+      "stop": 60242.52815199281,
+      "target": 60720.07915401948,
+      "direction": "LONG",
+      "net_return": 0.002452054266768078,
+      "bars": 10,
+      "cost": 0.0028148836045379724,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799938500,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799946000,
+      "end": 1799949600,
+      "entry": 61070.11132881373,
+      "exit": 60914.548867997364,
+      "stop": 60900.442079457556,
+      "target": 61336.19499586417,
+      "direction": "LONG",
+      "net_return": -0.0045572292460104614,
+      "bars": 12,
+      "cost": 0.002809952723477467,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799946000,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799950500,
+      "end": 1799952300,
+      "entry": 60865.11740833425,
+      "exit": 60648.0953647882,
+      "stop": 60672.3643105124,
+      "target": 61177.61466666288,
+      "direction": "LONG",
+      "net_return": -0.005568307065428702,
+      "bars": 6,
+      "cost": 0.0028026843773118833,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799950500,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799953500,
+      "end": 1799955600,
+      "entry": 60357.62239250751,
+      "exit": 60034.092017368734,
+      "stop": 60567.61866273486,
+      "target": 60010.087982175864,
+      "direction": "SHORT",
+      "net_return": 0.0033582925408735696,
+      "bars": 7,
+      "cost": 0.00280193144268311,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799953500,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799956200,
+      "end": 1799958900,
+      "entry": 60034.902565102915,
+      "exit": 59813.243722772364,
+      "stop": 59837.17859421005,
+      "target": 60358.337429041676,
+      "direction": "LONG",
+      "net_return": -0.0056978491046775276,
+      "bars": 9,
+      "cost": 0.0028056828337290514,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799956200,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799959500,
+      "end": 1799961000,
+      "entry": 59855.66588525653,
+      "exit": 60094.89497288295,
+      "stop": 59688.128513018164,
+      "target": 60118.9425499029,
+      "direction": "LONG",
+      "net_return": 0.001987560855751185,
+      "bars": 5,
+      "cost": 0.002809205099288373,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799959500,
+      "regime": "DOWNTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799961600,
+      "end": 1799963400,
+      "entry": 60261.94936007032,
+      "exit": 60542.241968956616,
+      "stop": 60073.54704938488,
+      "target": 60566.468556379165,
+      "direction": "LONG",
+      "net_return": 0.002640335768480723,
+      "bars": 6,
+      "cost": 0.0028109012370054866,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799961600,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799964900,
+      "end": 1799966700,
+      "entry": 60874.96651433298,
+      "exit": 61175.06707511852,
+      "stop": 60676.16594880314,
+      "target": 61199.54689387607,
+      "direction": "LONG",
+      "net_return": 0.0029186062650817567,
+      "bars": 6,
+      "cost": 0.002811179786051133,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799964900,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799967000,
+      "end": 1799968200,
+      "entry": 61193.76765739963,
+      "exit": 61417.377525160475,
+      "stop": 61392.82039700168,
+      "target": 60869.1240841468,
+      "direction": "SHORT",
+      "net_return": -0.005661948924522803,
+      "bars": 4,
+      "cost": 0.002807820794796393,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799967000,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799968500,
+      "end": 1799972100,
+      "entry": 61434.97956403575,
+      "exit": 61300.268010908905,
+      "stop": 61638.93247237924,
+      "target": 61100.825223416025,
+      "direction": "SHORT",
+      "net_return": 0.00018244277750047635,
+      "bars": 12,
+      "cost": 0.002810307249972527,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799968500,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799973600,
+      "end": 1799976900,
+      "entry": 61222.35915601936,
+      "exit": 60967.81360301424,
+      "stop": 61398.56873450712,
+      "target": 60943.436228522834,
+      "direction": "SHORT",
+      "net_return": 0.002150421445078829,
+      "bars": 11,
+      "cost": 0.0028073006112769774,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799973600,
+      "regime": "UPTREND",
+      "fold": 0
+    },
+    {
+      "start": 1799978100,
+      "end": 1799980500,
+      "entry": 60870.849493912865,
+      "exit": 61073.59393419024,
+      "stop": 61049.17426448445,
+      "target": 60587.27420186203,
+      "direction": "SHORT",
+      "net_return": -0.005342395308892726,
+      "bars": 8,
+      "cost": 0.002811664064577648,
+      "costs_included": true,
+      "reason": "STOP",
+      "signal_timestamp": 1799978100,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799980800,
+      "end": 1799982300,
+      "entry": 61137.72256192877,
+      "exit": 61385.99687629505,
+      "stop": 60964.635326174866,
+      "target": 61410.561100735344,
+      "direction": "LONG",
+      "net_return": 0.002051633002237837,
+      "bars": 5,
+      "cost": 0.002809269235571142,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799980800,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799983200,
+      "end": 1799984400,
+      "entry": 61652.11427340583,
+      "exit": 61946.104764384356,
+      "stop": 61455.748371319394,
+      "target": 61970.89312163301,
+      "direction": "LONG",
+      "net_return": 0.0027596034643154505,
+      "bars": 4,
+      "cost": 0.0028089352053363185,
+      "costs_included": true,
+      "reason": "TARGET",
+      "signal_timestamp": 1799983200,
+      "regime": "RANGE",
+      "fold": 0
+    },
+    {
+      "start": 1799995200,
+      "end": 1799998800,
+      "entry": 62559.330025398136,
+      "exit": 62594.617914742266,
+      "stop": 62733.423818792704,
+      "target": 62286.24367513408,
+      "direction": "SHORT",
+      "net_return": -0.002577134838946224,
+      "bars": 12,
+      "cost": 0.002813064070768178,
+      "costs_included": true,
+      "reason": "TIME_EXIT",
+      "signal_timestamp": 1799995200,
+      "regime": "UPTREND",
+      "fold": 0
+    }
+  ],
+  "metrics": {
+    "trade_count": 58,
+    "win_rate": 0.5,
+    "win_rate_interval": [
+      0.3753827301422442,
+      0.6246172698577558
+    ],
+    "average_net_return": -0.0012759624720230802,
+    "expected_value": -0.0012759624720230802,
+    "net_return": -0.0717455775218131,
+    "profit_factor": 0.464854886843143,
+    "profit_factor_note": null,
+    "maximum_drawdown": 0.0774822111087895,
+    "average_holding_bars": 7.637931034482759,
+    "average_cost": 0.0028078701544667303,
+    "equity": [
+      {
+        "timestamp": 1799754000,
+        "equity": 1.0023889941061133,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": 1799755500,
+        "equity": 0.9966856812381449,
+        "drawdown": 0.005689720160040546
+      },
+      {
+        "timestamp": 1799767200,
+        "equity": 0.9980076226013338,
+        "drawdown": 0.004370929380251853
+      },
+      {
+        "timestamp": 1799770200,
+        "equity": 0.9998667296411118,
+        "drawdown": 0.002516253151054082
+      },
+      {
+        "timestamp": 1799773200,
+        "equity": 0.9946459857958728,
+        "drawdown": 0.007724554395317718
+      },
+      {
+        "timestamp": 1799777100,
+        "equity": 0.9970327638968305,
+        "drawdown": 0.0053434647035996985
+      },
+      {
+        "timestamp": 1799780700,
+        "equity": 0.9999139499661484,
+        "drawdown": 0.0024691453662378793
+      },
+      {
+        "timestamp": 1799785200,
+        "equity": 1.0009168280304739,
+        "drawdown": 0.0014686574616197268
+      },
+      {
+        "timestamp": 1799789400,
+        "equity": 1.003982233729909,
+        "drawdown": 0.0
+      },
+      {
+        "timestamp": 1799791200,
+        "equity": 0.9980834676441104,
+        "drawdown": 0.005875368993218055
+      },
+      {
+        "timestamp": 1799794800,
+        "equity": 0.9925504870637912,
+        "drawdown": 0.01138640334664831
+      },
+      {
+        "timestamp": 1799805300,
+        "equity": 0.9951463688917952,
+        "drawdown": 0.00880081792412546
+      },
+      {
+        "timestamp": 1799808000,
+        "equity": 0.9983126277929896,
+        "drawdown": 0.00564711779396343
+      },
+      {
+        "timestamp": 1799809500,
+        "equity": 0.9925054983731637,
+        "drawdown": 0.011431213592403733
+      },
+      {
+        "timestamp": 1799811600,
+        "equity": 0.9952710259068541,
+        "drawdown": 0.00867665535344353
+      },
+      {
+        "timestamp": 1799817600,
+        "equity": 0.9900033214885862,
+        "drawdown": 0.013923465746390251
+      },
+      {
+        "timestamp": 1799823900,
+        "equity": 0.9870897081191025,
+        "drawdown": 0.016825522447791563
+      },
+      {
+        "timestamp": 1799828400,
+        "equity": 0.9897384539600095,
+        "drawdown": 0.014187282694218761
+      },
+      {
+        "timestamp": 1799837400,
+        "equity": 0.9875041507544132,
+        "drawdown": 0.016412723673682628
+      },
+      {
+        "timestamp": 1799844600,
+        "equity": 0.9883117906929154,
+        "drawdown": 0.0156082871892822
+      },
+      {
+        "timestamp": 1799848800,
+        "equity": 0.988825882875835,
+        "drawdown": 0.015096234121361296
+      },
+      {
+        "timestamp": 1799853900,
+        "equity": 0.9913709069985109,
+        "drawdown": 0.012561304680208774
+      },
+      {
+        "timestamp": 1799856900,
+        "equity": 0.9937483935925391,
+        "drawdown": 0.01019324824040957
+      },
+      {
+        "timestamp": 1799861100,
+        "equity": 0.996884733981722,
+        "drawdown": 0.007069347952322724
+      },
+      {
+        "timestamp": 1799863200,
+        "equity": 0.9911009807527323,
+        "drawdown": 0.012830160280148828
+      },
+      {
+        "timestamp": 1799869200,
+        "equity": 0.9857625367622281,
+        "drawdown": 0.018147429661172887
+      },
+      {
+        "timestamp": 1799872800,
+        "equity": 0.980452055737272,
+        "drawdown": 0.023436846990030458
+      },
+      {
+        "timestamp": 1799876400,
+        "equity": 0.9751532848308484,
+        "drawdown": 0.028714600647819943
+      },
+      {
+        "timestamp": 1799878500,
+        "equity": 0.9698653823553729,
+        "drawdown": 0.0339815289836235
+      },
+      {
+        "timestamp": 1799880000,
+        "equity": 0.9646721527362538,
+        "drawdown": 0.0391541599771279
+      },
+      {
+        "timestamp": 1799889900,
+        "equity": 0.9667934153099619,
+        "drawdown": 0.03704131126084409
+      },
+      {
+        "timestamp": 1799893200,
+        "equity": 0.9691304451803199,
+        "drawdown": 0.034713551075610805
+      },
+      {
+        "timestamp": 1799897700,
+        "equity": 0.9661257219404993,
+        "drawdown": 0.03770635626565655
+      },
+      {
+        "timestamp": 1799899800,
+        "equity": 0.9611541274224845,
+        "drawdown": 0.04265823126004242
+      },
+      {
+        "timestamp": 1799904600,
+        "equity": 0.9635174834367121,
+        "drawdown": 0.040304249351968746
+      },
+      {
+        "timestamp": 1799908500,
+        "equity": 0.9581584208986575,
+        "drawdown": 0.04564205549834344
+      },
+      {
+        "timestamp": 1799913300,
+        "equity": 0.9527005848073168,
+        "drawdown": 0.05107824341878531
+      },
+      {
+        "timestamp": 1799916000,
+        "equity": 0.9470512172855361,
+        "drawdown": 0.05670520307203797
+      },
+      {
+        "timestamp": 1799920800,
+        "equity": 0.9462955591775754,
+        "drawdown": 0.05745786390862806
+      },
+      {
+        "timestamp": 1799924700,
+        "equity": 0.9472827405447445,
+        "drawdown": 0.05647459813558586
+      },
+      {
+        "timestamp": 1799928900,
+        "equity": 0.9466981488058275,
+        "drawdown": 0.057056871127355024
+      },
+      {
+        "timestamp": 1799930700,
+        "equity": 0.941658814969992,
+        "drawdown": 0.062076216755727054
+      },
+      {
+        "timestamp": 1799932200,
+        "equity": 0.9366524909328274,
+        "drawdown": 0.06706268351676281
+      },
+      {
+        "timestamp": 1799941500,
+        "equity": 0.9389492136696982,
+        "drawdown": 0.06477507058925291
+      },
+      {
+        "timestamp": 1799949600,
+        "equity": 0.9346702068526441,
+        "drawdown": 0.06903710498916171
+      },
+      {
+        "timestamp": 1799952300,
+        "equity": 0.9294656761359809,
+        "drawdown": 0.07422099225510248
+      },
+      {
+        "timestamp": 1799955600,
+        "equity": 0.9325870937831463,
+        "drawdown": 0.07111195551889549
+      },
+      {
+        "timestamp": 1799958900,
+        "equity": 0.9272733532458002,
+        "drawdown": 0.0764046194314878
+      },
+      {
+        "timestamp": 1799961000,
+        "equity": 0.9291163654652926,
+        "drawdown": 0.07456891740651728
+      },
+      {
+        "timestamp": 1799963400,
+        "equity": 0.9315695446381115,
+        "drawdown": 0.07212546861788183
+      },
+      {
+        "timestamp": 1799966700,
+        "equity": 0.9342884293474516,
+        "drawdown": 0.0694173681973802
+      },
+      {
+        "timestamp": 1799968200,
+        "equity": 0.9289985359797137,
+        "drawdown": 0.07468627952869467
+      },
+      {
+        "timestamp": 1799972100,
+        "equity": 0.9291680250529119,
+        "drawdown": 0.07451746272347237
+      },
+      {
+        "timestamp": 1799976900,
+        "equity": 0.9311661279000673,
+        "drawdown": 0.0725272852282669
+      },
+      {
+        "timestamp": 1799980500,
+        "equity": 0.9261914703465741,
+        "drawdown": 0.0774822111087895
+      },
+      {
+        "timestamp": 1799982300,
+        "equity": 0.9280916753335283,
+        "drawdown": 0.07558954316794875
+      },
+      {
+        "timestamp": 1799984400,
+        "equity": 0.930652840335981,
+        "drawdown": 0.07303853686882578
+      },
+      {
+        "timestamp": 1799998800,
+        "equity": 0.9282544224781869,
+        "drawdown": 0.07542744154982162
+      }
+    ],
+    "by_regime": {
+      "DOWNTREND": {
+        "count": 7,
+        "mean_net_return": -0.0008297601218292534
+      },
+      "UPTREND": {
+        "count": 9,
+        "mean_net_return": -0.000514084684316757
+      },
+      "RANGE": {
+        "count": 42,
+        "mean_net_return": -0.0015135890563257874
+      }
+    }
+  },
+  "cost_assumptions": {
+    "fee_bps": 10,
+    "spread_bps": 2,
+    "slippage_bps": 3,
+    "funding_bps_per_8h": 1
+  },
+  "limitations": [
+    "Assumed constant fees, spread, slippage and funding",
+    "Unit-notional returns; no portfolio leverage",
+    "Opposite-setup exits are not simulated in version 1.0.0"
+  ],
+  "source": "SYNTHETIC",
+  "walk_forward": {
+    "status": "EXPLORATORY_ONLY",
+    "folds": [
+      {
+        "fold": 1,
+        "training_end": 1799861400,
+        "evaluation_start": 1799865300,
+        "report": {
+          "agent": "volume_profile",
+          "version": "1.0.0",
+          "status": "EXPERIMENTAL",
+          "instrument": "BTCUSDT",
+          "market": "linear",
+          "timeframe": 300,
+          "horizon": 12,
+          "trades": [
+            {
+              "start": 1799867100,
+              "end": 1799869200,
+              "entry": 61958.58802030902,
+              "exit": 61749.01506234692,
+              "stop": 61773.72455216779,
+              "target": 62253.994379198084,
+              "direction": "LONG",
+              "net_return": -0.005386377467258323,
+              "bars": 7,
+              "cost": 0.0028039091983978063,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799867100,
+              "regime": "UPTREND",
+              "fold": 1
+            },
+            {
+              "start": 1799871000,
+              "end": 1799872800,
+              "entry": 61610.52383561116,
+              "exit": 61402.014407696326,
+              "stop": 61426.585041713006,
+              "target": 61904.49835603169,
+              "direction": "LONG",
+              "net_return": -0.005387180813747095,
+              "bars": 6,
+              "cost": 0.002802865684871124,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799871000,
+              "regime": "UPTREND",
+              "fold": 1
+            },
+            {
+              "start": 1799873700,
+              "end": 1799876400,
+              "entry": 61263.73963551729,
+              "exit": 61471.524766333234,
+              "stop": 61446.94598793806,
+              "target": 60970.87283660072,
+              "direction": "SHORT",
+              "net_return": -0.005404416131739492,
+              "bars": 9,
+              "cost": 0.002812766649482257,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799873700,
+              "regime": "RANGE",
+              "fold": 1
+            },
+            {
+              "start": 1799877600,
+              "end": 1799878500,
+              "entry": 61513.40133966921,
+              "exit": 61723.537030162326,
+              "stop": 61698.857487167465,
+              "target": 61216.33466452823,
+              "direction": "SHORT",
+              "net_return": -0.00542263719738454,
+              "bars": 3,
+              "cost": 0.0028065410961012833,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799877600,
+              "regime": "RANGE",
+              "fold": 1
+            },
+            {
+              "start": 1799879100,
+              "end": 1799880000,
+              "entry": 61719.18246454986,
+              "exit": 61925.825383215095,
+              "stop": 61901.06495723221,
+              "target": 61429.51013520501,
+              "direction": "SHORT",
+              "net_return": -0.005354588083664687,
+              "bars": 3,
+              "cost": 0.002806473114968696,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799879100,
+              "regime": "RANGE",
+              "fold": 1
+            },
+            {
+              "start": 1799887800,
+              "end": 1799889900,
+              "entry": 62800.80687454116,
+              "exit": 62536.915607236166,
+              "stop": 62982.95045271189,
+              "target": 62511.91084289901,
+              "direction": "SHORT",
+              "net_return": 0.0021989466241885357,
+              "bars": 7,
+              "cost": 0.0028030896304120662,
+              "costs_included": true,
+              "reason": "TARGET",
+              "signal_timestamp": 1799887800,
+              "regime": "UPTREND",
+              "fold": 1
+            }
+          ],
+          "metrics": {
+            "trade_count": 6,
+            "win_rate": 0.16666666666666666,
+            "win_rate_interval": [
+              0.030053369748306635,
+              0.5635028221864702
+            ],
+            "average_net_return": -0.0041260421782676,
+            "expected_value": -0.0041260421782676,
+            "net_return": -0.024525821197663444,
+            "profit_factor": 0.08157782725292874,
+            "profit_factor_note": null,
+            "maximum_drawdown": 0.026666130424375156,
+            "average_holding_bars": 5.833333333333333,
+            "average_cost": 0.0028059408957055386,
+            "equity": [
+              {
+                "timestamp": 1799869200,
+                "equity": 0.9946136225327417,
+                "drawdown": 0.005386377467258341
+              },
+              {
+                "timestamp": 1799872800,
+                "equity": 0.9892554591083418,
+                "drawdown": 0.010744540891658216
+              },
+              {
+                "timestamp": 1799876400,
+                "equity": 0.9839091109467253,
+                "drawdown": 0.016090889053274715
+              },
+              {
+                "timestamp": 1799878500,
+                "equity": 0.97857372880286,
+                "drawdown": 0.021426271197140023
+              },
+              {
+                "timestamp": 1799880000,
+                "equity": 0.9733338695756248,
+                "drawdown": 0.026666130424375156
+              },
+              {
+                "timestamp": 1799889900,
+                "equity": 0.9754741788023366,
+                "drawdown": 0.024525821197663444
+              }
+            ],
+            "by_regime": {
+              "UPTREND": {
+                "count": 3,
+                "mean_net_return": -0.002858203885605627
+              },
+              "RANGE": {
+                "count": 3,
+                "mean_net_return": -0.005393880470929573
+              }
+            }
+          },
+          "cost_assumptions": {
+            "fee_bps": 10,
+            "spread_bps": 2,
+            "slippage_bps": 3,
+            "funding_bps_per_8h": 1
+          },
+          "limitations": [
+            "Assumed constant fees, spread, slippage and funding",
+            "Unit-notional returns; no portfolio leverage",
+            "Opposite-setup exits are not simulated in version 1.0.0"
+          ]
+        }
+      },
+      {
+        "fold": 2,
+        "training_end": 1799888400,
+        "evaluation_start": 1799892300,
+        "report": {
+          "agent": "volume_profile",
+          "version": "1.0.0",
+          "status": "EXPERIMENTAL",
+          "instrument": "BTCUSDT",
+          "market": "linear",
+          "timeframe": 300,
+          "horizon": 12,
+          "trades": [
+            {
+              "start": 1799892900,
+              "end": 1799896500,
+              "entry": 62035.79403321923,
+              "exit": 61925.27568465287,
+              "stop": 62236.63371151704,
+              "target": 61708.58741856024,
+              "direction": "SHORT",
+              "net_return": -0.00022919298122170209,
+              "bars": 12,
+              "cost": 0.0028107184745067145,
+              "costs_included": true,
+              "reason": "TIME_EXIT",
+              "signal_timestamp": 1799892900,
+              "regime": "RANGE",
+              "fold": 2
+            },
+            {
+              "start": 1799897400,
+              "end": 1799899800,
+              "entry": 61855.023330660544,
+              "exit": 62056.61219644811,
+              "stop": 62031.799476657456,
+              "target": 61575.72676895563,
+              "direction": "SHORT",
+              "net_return": -0.005270646461478783,
+              "bars": 8,
+              "cost": 0.0028115923874074047,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799897400,
+              "regime": "RANGE",
+              "fold": 2
+            },
+            {
+              "start": 1799902500,
+              "end": 1799904600,
+              "entry": 62513.302510165195,
+              "exit": 62792.77669251388,
+              "stop": 62323.50885390767,
+              "target": 62817.9038540555,
+              "direction": "LONG",
+              "net_return": 0.002458873084762611,
+              "bars": 7,
+              "cost": 0.0028117623020534827,
+              "costs_included": true,
+              "reason": "TARGET",
+              "signal_timestamp": 1799902500,
+              "regime": "RANGE",
+              "fold": 2
+            },
+            {
+              "start": 1799904900,
+              "end": 1799908500,
+              "entry": 62956.447749167644,
+              "exit": 62732.76156990053,
+              "stop": 62757.86471578685,
+              "target": 63278.09628564236,
+              "direction": "LONG",
+              "net_return": -0.0055619774733505975,
+              "bars": 12,
+              "cost": 0.0028089469694961454,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799904900,
+              "regime": "RANGE",
+              "fold": 2
+            },
+            {
+              "start": 1799912700,
+              "end": 1799913300,
+              "entry": 61942.65053135349,
+              "exit": 61713.599777641255,
+              "stop": 61738.295095679525,
+              "target": 62277.05994264782,
+              "direction": "LONG",
+              "net_return": -0.005696172962944796,
+              "bars": 2,
+              "cost": 0.002798385545916305,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799912700,
+              "regime": "RANGE",
+              "fold": 2
+            },
+            {
+              "start": 1799913900,
+              "end": 1799916000,
+              "entry": 61624.29722649495,
+              "exit": 61382.33062065728,
+              "stop": 61406.893378008484,
+              "target": 61985.18533463163,
+              "direction": "LONG",
+              "net_return": -0.005929845758332678,
+              "bars": 7,
+              "cost": 0.0028033651860944284,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799913900,
+              "regime": "RANGE",
+              "fold": 2
+            }
+          ],
+          "metrics": {
+            "trade_count": 6,
+            "win_rate": 0.16666666666666666,
+            "win_rate_interval": [
+              0.030053369748306635,
+              0.5635028221864702
+            ],
+            "average_net_return": -0.003371493758760991,
+            "expected_value": -0.003371493758760991,
+            "net_return": -0.020090842032293055,
+            "profit_factor": 0.10837847752727012,
+            "profit_factor_note": null,
+            "maximum_drawdown": 0.020090842032293055,
+            "average_holding_bars": 8,
+            "average_cost": 0.0028074618109124134,
+            "equity": [
+              {
+                "timestamp": 1799896500,
+                "equity": 0.9997708070187783,
+                "drawdown": 0.00022919298122170417
+              },
+              {
+                "timestamp": 1799899800,
+                "equity": 0.994501368552475,
+                "drawdown": 0.005498631447525049
+              },
+              {
+                "timestamp": 1799904600,
+                "equity": 0.9969467212003682,
+                "drawdown": 0.003053278799631798
+              },
+              {
+                "timestamp": 1799908500,
+                "equity": 0.9914017259949209,
+                "drawdown": 0.008598274005079065
+              },
+              {
+                "timestamp": 1799913300,
+                "equity": 0.9857545302878918,
+                "drawdown": 0.01424546971210816
+              },
+              {
+                "timestamp": 1799916000,
+                "equity": 0.979909157967707,
+                "drawdown": 0.020090842032293055
+              }
+            ],
+            "by_regime": {
+              "RANGE": {
+                "count": 6,
+                "mean_net_return": -0.003371493758760991
+              }
+            }
+          },
+          "cost_assumptions": {
+            "fee_bps": 10,
+            "spread_bps": 2,
+            "slippage_bps": 3,
+            "funding_bps_per_8h": 1
+          },
+          "limitations": [
+            "Assumed constant fees, spread, slippage and funding",
+            "Unit-notional returns; no portfolio leverage",
+            "Opposite-setup exits are not simulated in version 1.0.0"
+          ]
+        }
+      },
+      {
+        "fold": 3,
+        "training_end": 1799915400,
+        "evaluation_start": 1799919300,
+        "report": {
+          "agent": "volume_profile",
+          "version": "1.0.0",
+          "status": "EXPERIMENTAL",
+          "instrument": "BTCUSDT",
+          "market": "linear",
+          "timeframe": 300,
+          "horizon": 12,
+          "trades": [
+            {
+              "start": 1799920500,
+              "end": 1799924100,
+              "entry": 61516.02668188034,
+              "exit": 61761.24675671919,
+              "stop": 61331.31850514041,
+              "target": 61811.65331922841,
+              "direction": "LONG",
+              "net_return": 0.0019697932002883806,
+              "bars": 12,
+              "cost": 0.002816486279479768,
+              "costs_included": true,
+              "reason": "TIME_EXIT",
+              "signal_timestamp": 1799920500,
+              "regime": "DOWNTREND",
+              "fold": 3
+            },
+            {
+              "start": 1799924400,
+              "end": 1799928000,
+              "entry": 61848.955255905275,
+              "exit": 61800.80426312292,
+              "stop": 61669.637907883356,
+              "target": 62133.40088127031,
+              "direction": "LONG",
+              "net_return": -0.002790247038580446,
+              "bars": 12,
+              "cost": 0.0028117214744358553,
+              "costs_included": true,
+              "reason": "TIME_EXIT",
+              "signal_timestamp": 1799924400,
+              "regime": "RANGE",
+              "fold": 3
+            },
+            {
+              "start": 1799929500,
+              "end": 1799930700,
+              "entry": 61530.71646304054,
+              "exit": 61326.29797869507,
+              "stop": 61350.83831402067,
+              "target": 61816.66542425936,
+              "direction": "LONG",
+              "net_return": -0.00532306294481728,
+              "bars": 4,
+              "cost": 0.002800844448170019,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799929500,
+              "regime": "RANGE",
+              "fold": 3
+            },
+            {
+              "start": 1799931300,
+              "end": 1799932200,
+              "entry": 61251.80904542504,
+              "exit": 61048.65600824851,
+              "stop": 61073.08524234544,
+              "target": 61535.783869842446,
+              "direction": "LONG",
+              "net_return": -0.005316494634337599,
+              "bars": 3,
+              "cost": 0.0027998083136793416,
+              "costs_included": true,
+              "reason": "STOP",
+              "signal_timestamp": 1799931300,
+              "regime": "RANGE",
+              "fold": 3
+            },
+            {
+              "start": 1799938500,
+              "end": 1799941500,
+              "entry": 60425.87250406276,
+              "exit": 60695.79112235787,
+              "stop": 60242.52815199281,
+              "target": 60720.07915401948,
+              "direction": "LONG",
+              "net_return": 0.002452054266768078,
+              "bars": 10,
+              "cost": 0.0028148836045379724,
+              "costs_included": true,
+              "reason": "TARGET",
+              "signal_timestamp": 1799938500,
+              "regime": "DOWNTREND",
+              "fold": 3
+            }
+          ],
+          "metrics": {
+            "trade_count": 5,
+            "win_rate": 0.4,
+            "win_rate_interval": [
+              0.11762077423264794,
+              0.769275718723987
+            ],
+            "average_net_return": -0.0018015914301357733,
+            "expected_value": -0.0018015914301357733,
+            "net_return": -0.009004412119028471,
+            "profit_factor": 0.32925627683495795,
+            "profit_factor_note": null,
+            "maximum_drawdown": 0.01337189655221449,
+            "average_holding_bars": 8.2,
+            "average_cost": 0.0028087488240605913,
+            "equity": [
+              {
+                "timestamp": 1799924100,
+                "equity": 1.0019697932002884,
+                "drawdown": 0.0
+              },
+              {
+                "timestamp": 1799928000,
+                "equity": 0.9991740499520643,
+                "drawdown": 0.00279024703858044
+              },
+              {
+                "timestamp": 1799930700,
+                "equity": 0.9938553835913414,
+                "drawdown": 0.008098457322779806
+              },
+              {
+                "timestamp": 1799932200,
+                "equity": 0.9885715567771705,
+                "drawdown": 0.01337189655221449
+              },
+              {
+                "timestamp": 1799941500,
+                "equity": 0.9909955878809715,
+                "drawdown": 0.01095263090144194
+              }
+            ],
+            "by_regime": {
+              "DOWNTREND": {
+                "count": 2,
+                "mean_net_return": 0.0022109237335282295
+              },
+              "RANGE": {
+                "count": 3,
+                "mean_net_return": -0.004476601539245108
+              }
+            }
+          },
+          "cost_assumptions": {
+            "fee_bps": 10,
+            "spread_bps": 2,
+            "slippage_bps": 3,
+            "funding_bps_per_8h": 1
+          },
+          "limitations": [
+            "Assumed constant fees, spread, slippage and funding",
+            "Unit-notional returns; no portfolio leverage",
+            "Opposite-setup exits are not simulated in version 1.0.0"
+          ]
+        }
+      }
+    ],
+    "holdout": {
+      "agent": "volume_profile",
+      "version": "1.0.0",
+      "status": "EXPERIMENTAL",
+      "instrument": "BTCUSDT",
+      "market": "linear",
+      "timeframe": 300,
+      "horizon": 12,
+      "trades": [
+        {
+          "start": 1799950500,
+          "end": 1799952300,
+          "entry": 60865.11740833425,
+          "exit": 60648.0953647882,
+          "stop": 60672.3643105124,
+          "target": 61177.61466666288,
+          "direction": "LONG",
+          "net_return": -0.005568307065428702,
+          "bars": 6,
+          "cost": 0.0028026843773118833,
+          "costs_included": true,
+          "reason": "STOP",
+          "signal_timestamp": 1799950500,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799953500,
+          "end": 1799955600,
+          "entry": 60357.62239250751,
+          "exit": 60034.092017368734,
+          "stop": 60567.61866273486,
+          "target": 60010.087982175864,
+          "direction": "SHORT",
+          "net_return": 0.0033582925408735696,
+          "bars": 7,
+          "cost": 0.00280193144268311,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799953500,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799956200,
+          "end": 1799958900,
+          "entry": 60034.902565102915,
+          "exit": 59813.243722772364,
+          "stop": 59837.17859421005,
+          "target": 60358.337429041676,
+          "direction": "LONG",
+          "net_return": -0.0056978491046775276,
+          "bars": 9,
+          "cost": 0.0028056828337290514,
+          "costs_included": true,
+          "reason": "STOP",
+          "signal_timestamp": 1799956200,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799959500,
+          "end": 1799961000,
+          "entry": 59855.66588525653,
+          "exit": 60094.89497288295,
+          "stop": 59688.128513018164,
+          "target": 60118.9425499029,
+          "direction": "LONG",
+          "net_return": 0.001987560855751185,
+          "bars": 5,
+          "cost": 0.002809205099288373,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799959500,
+          "regime": "DOWNTREND",
+          "fold": 0
+        },
+        {
+          "start": 1799961600,
+          "end": 1799963400,
+          "entry": 60261.94936007032,
+          "exit": 60542.241968956616,
+          "stop": 60073.54704938488,
+          "target": 60566.468556379165,
+          "direction": "LONG",
+          "net_return": 0.002640335768480723,
+          "bars": 6,
+          "cost": 0.0028109012370054866,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799961600,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799964900,
+          "end": 1799966700,
+          "entry": 60874.96651433298,
+          "exit": 61175.06707511852,
+          "stop": 60676.16594880314,
+          "target": 61199.54689387607,
+          "direction": "LONG",
+          "net_return": 0.0029186062650817567,
+          "bars": 6,
+          "cost": 0.002811179786051133,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799964900,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799967000,
+          "end": 1799968200,
+          "entry": 61193.76765739963,
+          "exit": 61417.377525160475,
+          "stop": 61392.82039700168,
+          "target": 60869.1240841468,
+          "direction": "SHORT",
+          "net_return": -0.005661948924522803,
+          "bars": 4,
+          "cost": 0.002807820794796393,
+          "costs_included": true,
+          "reason": "STOP",
+          "signal_timestamp": 1799967000,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799968500,
+          "end": 1799972100,
+          "entry": 61434.97956403575,
+          "exit": 61300.268010908905,
+          "stop": 61638.93247237924,
+          "target": 61100.825223416025,
+          "direction": "SHORT",
+          "net_return": 0.00018244277750047635,
+          "bars": 12,
+          "cost": 0.002810307249972527,
+          "costs_included": true,
+          "reason": "TIME_EXIT",
+          "signal_timestamp": 1799968500,
+          "regime": "UPTREND",
+          "fold": 0
+        },
+        {
+          "start": 1799973600,
+          "end": 1799976900,
+          "entry": 61222.35915601936,
+          "exit": 60967.81360301424,
+          "stop": 61398.56873450712,
+          "target": 60943.436228522834,
+          "direction": "SHORT",
+          "net_return": 0.002150421445078829,
+          "bars": 11,
+          "cost": 0.0028073006112769774,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799973600,
+          "regime": "UPTREND",
+          "fold": 0
+        },
+        {
+          "start": 1799978100,
+          "end": 1799980500,
+          "entry": 60870.849493912865,
+          "exit": 61073.59393419024,
+          "stop": 61049.17426448445,
+          "target": 60587.27420186203,
+          "direction": "SHORT",
+          "net_return": -0.005342395308892726,
+          "bars": 8,
+          "cost": 0.002811664064577648,
+          "costs_included": true,
+          "reason": "STOP",
+          "signal_timestamp": 1799978100,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799980800,
+          "end": 1799982300,
+          "entry": 61137.72256192877,
+          "exit": 61385.99687629505,
+          "stop": 60964.635326174866,
+          "target": 61410.561100735344,
+          "direction": "LONG",
+          "net_return": 0.002051633002237837,
+          "bars": 5,
+          "cost": 0.002809269235571142,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799980800,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799983200,
+          "end": 1799984400,
+          "entry": 61652.11427340583,
+          "exit": 61946.104764384356,
+          "stop": 61455.748371319394,
+          "target": 61970.89312163301,
+          "direction": "LONG",
+          "net_return": 0.0027596034643154505,
+          "bars": 4,
+          "cost": 0.0028089352053363185,
+          "costs_included": true,
+          "reason": "TARGET",
+          "signal_timestamp": 1799983200,
+          "regime": "RANGE",
+          "fold": 0
+        },
+        {
+          "start": 1799995200,
+          "end": 1799998800,
+          "entry": 62559.330025398136,
+          "exit": 62594.617914742266,
+          "stop": 62733.423818792704,
+          "target": 62286.24367513408,
+          "direction": "SHORT",
+          "net_return": -0.002577134838946224,
+          "bars": 12,
+          "cost": 0.002813064070768178,
+          "costs_included": true,
+          "reason": "TIME_EXIT",
+          "signal_timestamp": 1799995200,
+          "regime": "UPTREND",
+          "fold": 0
+        }
+      ],
+      "metrics": {
+        "trade_count": 13,
+        "win_rate": 0.6153846153846154,
+        "win_rate_interval": [
+          0.355228915126657,
+          0.8229029220223743
+        ],
+        "average_net_return": -0.0005229799325498582,
+        "expected_value": -0.0005229799325498582,
+        "net_return": -0.00686422261822317,
+        "profit_factor": 0.7263828506493775,
+        "profit_factor_note": null,
+        "maximum_drawdown": 0.009071367038242073,
+        "average_holding_bars": 7.3076923076923075,
+        "average_cost": 0.002808457385259094,
+        "equity": [
+          {
+            "timestamp": 1799952300,
+            "equity": 0.9944316929345713,
+            "drawdown": 0.005568307065428657
+          },
+          {
+            "timestamp": 1799955600,
+            "equity": 0.9977712854713617,
+            "drawdown": 0.002228714528638265
+          },
+          {
+            "timestamp": 1799958900,
+            "equity": 0.9920861352457658,
+            "drawdown": 0.007913864754234168
+          },
+          {
+            "timestamp": 1799961000,
+            "equity": 0.9940579668137137,
+            "drawdown": 0.005942033186286277
+          },
+          {
+            "timestamp": 1799963400,
+            "equity": 0.9966826136194352,
+            "drawdown": 0.0033173863805647796
+          },
+          {
+            "timestamp": 1799966700,
+            "equity": 0.9995915377398429,
+            "drawdown": 0.0004084622601571164
+          },
+          {
+            "timestamp": 1799968200,
+            "equity": 0.9939319015077748,
+            "drawdown": 0.006068098492225227
+          },
+          {
+            "timestamp": 1799972100,
+            "equity": 0.9941132372045323,
+            "drawdown": 0.005886762795467737
+          },
+          {
+            "timestamp": 1799976900,
+            "equity": 0.9962509996286537,
+            "drawdown": 0.0037490003713462894
+          },
+          {
+            "timestamp": 1799980500,
+            "equity": 0.9909286329617579,
+            "drawdown": 0.009071367038242073
+          },
+          {
+            "timestamp": 1799982300,
+            "equity": 0.9929616548480046,
+            "drawdown": 0.007038345151995418
+          },
+          {
+            "timestamp": 1799984400,
+            "equity": 0.9957018352706555,
+            "drawdown": 0.004298164729344522
+          },
+          {
+            "timestamp": 1799998800,
+            "equity": 0.9931357773817768,
+            "drawdown": 0.00686422261822317
+          }
+        ],
+        "by_regime": {
+          "DOWNTREND": {
+            "count": 1,
+            "mean_net_return": 0.001987560855751185
+          },
+          "UPTREND": {
+            "count": 3,
+            "mean_net_return": -8.142353878897299e-05
+          },
+          "RANGE": {
+            "count": 9,
+            "mean_net_return": -0.0009491143736147136
+          }
+        }
+      },
+      "cost_assumptions": {
+        "fee_bps": 10,
+        "spread_bps": 2,
+        "slippage_bps": 3,
+        "funding_bps_per_8h": 1
+      },
+      "limitations": [
+        "Assumed constant fees, spread, slippage and funding",
+        "Unit-notional returns; no portfolio leverage",
+        "Opposite-setup exits are not simulated in version 1.0.0"
+      ]
+    },
+    "sensitivity": [
+      {
+        "slippage_bps": 1,
+        "metrics": {
+          "trade_count": 13,
+          "win_rate": 0.6153846153846154,
+          "win_rate_interval": [
+            0.355228915126657,
+            0.8229029220223743
+          ],
+          "average_net_return": -0.00012266697300810126,
+          "expected_value": -0.00012266697300810126,
+          "net_return": -0.0016806679165131122,
+          "profit_factor": 0.9302027796236187,
+          "profit_factor_note": null,
+          "maximum_drawdown": 0.007074346163862599,
+          "average_holding_bars": 7.3076923076923075,
+          "average_cost": 0.0024084888287522403,
+          "equity": [
+            {
+              "timestamp": 1799952300,
+              "equity": 0.9948299477945773,
+              "drawdown": 0.005170052205422659
+            },
+            {
+              "timestamp": 1799955600,
+              "equity": 0.9985669933698205,
+              "drawdown": 0.0014330066301795341
+            },
+            {
+              "timestamp": 1799958900,
+              "equity": 0.993274942974381,
+              "drawdown": 0.006725057025618986
+            },
+            {
+              "timestamp": 1799961000,
+              "equity": 0.995647716151926,
+              "drawdown": 0.004352283848073957
+            },
+            {
+              "timestamp": 1799963400,
+              "equity": 0.9986763517923214,
+              "drawdown": 0.0013236482076786071
+            },
+            {
+              "timestamp": 1799966700,
+              "equity": 1.0019922135104444,
+              "drawdown": 0.0
+            },
+            {
+              "timestamp": 1799968200,
+              "equity": 0.9967215680003664,
+              "drawdown": 0.0052601661360346386
+            },
+            {
+              "timestamp": 1799972100,
+              "equity": 0.9973015452740576,
+              "drawdown": 0.004681342003600264
+            },
+            {
+              "timestamp": 1799976900,
+              "equity": 0.9998437436991464,
+              "drawdown": 0.0021441981108525354
+            },
+            {
+              "timestamp": 1799980500,
+              "equity": 0.9949037737385766,
+              "drawdown": 0.007074346163862599
+            },
+            {
+              "timestamp": 1799982300,
+              "equity": 0.9973442090530377,
+              "drawdown": 0.004638763050984873
+            },
+            {
+              "timestamp": 1799984400,
+              "equity": 1.0004970029167217,
+              "drawdown": 0.0014922377375411466
+            },
+            {
+              "timestamp": 1799998800,
+              "equity": 0.9983193320834869,
+              "drawdown": 0.003665578811326009
+            }
+          ],
+          "by_regime": {
+            "DOWNTREND": {
+              "count": 1,
+              "mean_net_return": 0.0023888382510079747
+            },
+            "UPTREND": {
+              "count": 3,
+              "mean_net_return": 0.0003181242919130547
+            },
+            "RANGE": {
+              "count": 9,
+              "mean_net_return": -0.0005486535306502728
+            }
+          }
+        }
+      },
+      {
+        "slippage_bps": 3,
+        "metrics": {
+          "trade_count": 13,
+          "win_rate": 0.6153846153846154,
+          "win_rate_interval": [
+            0.355228915126657,
+            0.8229029220223743
+          ],
+          "average_net_return": -0.0005229799325498582,
+          "expected_value": -0.0005229799325498582,
+          "net_return": -0.00686422261822317,
+          "profit_factor": 0.7263828506493775,
+          "profit_factor_note": null,
+          "maximum_drawdown": 0.009071367038242073,
+          "average_holding_bars": 7.3076923076923075,
+          "average_cost": 0.002808457385259094,
+          "equity": [
+            {
+              "timestamp": 1799952300,
+              "equity": 0.9944316929345713,
+              "drawdown": 0.005568307065428657
+            },
+            {
+              "timestamp": 1799955600,
+              "equity": 0.9977712854713617,
+              "drawdown": 0.002228714528638265
+            },
+            {
+              "timestamp": 1799958900,
+              "equity": 0.9920861352457658,
+              "drawdown": 0.007913864754234168
+            },
+            {
+              "timestamp": 1799961000,
+              "equity": 0.9940579668137137,
+              "drawdown": 0.005942033186286277
+            },
+            {
+              "timestamp": 1799963400,
+              "equity": 0.9966826136194352,
+              "drawdown": 0.0033173863805647796
+            },
+            {
+              "timestamp": 1799966700,
+              "equity": 0.9995915377398429,
+              "drawdown": 0.0004084622601571164
+            },
+            {
+              "timestamp": 1799968200,
+              "equity": 0.9939319015077748,
+              "drawdown": 0.006068098492225227
+            },
+            {
+              "timestamp": 1799972100,
+              "equity": 0.9941132372045323,
+              "drawdown": 0.005886762795467737
+            },
+            {
+              "timestamp": 1799976900,
+              "equity": 0.9962509996286537,
+              "drawdown": 0.0037490003713462894
+            },
+            {
+              "timestamp": 1799980500,
+              "equity": 0.9909286329617579,
+              "drawdown": 0.009071367038242073
+            },
+            {
+              "timestamp": 1799982300,
+              "equity": 0.9929616548480046,
+              "drawdown": 0.007038345151995418
+            },
+            {
+              "timestamp": 1799984400,
+              "equity": 0.9957018352706555,
+              "drawdown": 0.004298164729344522
+            },
+            {
+              "timestamp": 1799998800,
+              "equity": 0.9931357773817768,
+              "drawdown": 0.00686422261822317
+            }
+          ],
+          "by_regime": {
+            "DOWNTREND": {
+              "count": 1,
+              "mean_net_return": 0.001987560855751185
+            },
+            "UPTREND": {
+              "count": 3,
+              "mean_net_return": -8.142353878897299e-05
+            },
+            "RANGE": {
+              "count": 9,
+              "mean_net_return": -0.0009491143736147136
+            }
+          }
+        }
+      },
+      {
+        "slippage_bps": 10,
+        "metrics": {
+          "trade_count": 13,
+          "win_rate": 0.5384615384615384,
+          "win_rate_interval": [
+            0.29143795714506004,
+            0.7679393219046169
+          ],
+          "average_net_return": -0.0019239788919955775,
+          "expected_value": -0.0019239788919955775,
+          "net_return": -0.02481044225866913,
+          "profit_factor": 0.24361227151590126,
+          "profit_factor_note": null,
+          "maximum_drawdown": 0.02481044225866913,
+          "average_holding_bars": 7.3076923076923075,
+          "average_cost": 0.0042083485940105254,
+          "equity": [
+            {
+              "timestamp": 1799952300,
+              "equity": 0.9930390540489215,
+              "drawdown": 0.006960945951078545
+            },
+            {
+              "timestamp": 1799955600,
+              "equity": 0.9949888140767154,
+              "drawdown": 0.0050111859232846445
+            },
+            {
+              "timestamp": 1799958900,
+              "equity": 0.9879340338138461,
+              "drawdown": 0.012065966186153854
+            },
+            {
+              "timestamp": 1799961000,
+              "equity": 0.9885113356422948,
+              "drawdown": 0.011488664357705236
+            },
+            {
+              "timestamp": 1799963400,
+              "equity": 0.9897333460248262,
+              "drawdown": 0.01026665397517379
+            },
+            {
+              "timestamp": 1799966700,
+              "equity": 0.9912318953524772,
+              "drawdown": 0.008768104647522756
+            },
+            {
+              "timestamp": 1799968200,
+              "equity": 0.9842244253860755,
+              "drawdown": 0.015775574613924537
+            },
+            {
+              "timestamp": 1799972100,
+              "equity": 0.983026757688385,
+              "drawdown": 0.01697324231161501
+            },
+            {
+              "timestamp": 1799976900,
+              "equity": 0.9837678319484926,
+              "drawdown": 0.0162321680515074
+            },
+            {
+              "timestamp": 1799980500,
+              "equity": 0.9771279415796119,
+              "drawdown": 0.022872058420388086
+            },
+            {
+              "timestamp": 1799982300,
+              "equity": 0.9777614479364133,
+              "drawdown": 0.022238552063586714
+            },
+            {
+              "timestamp": 1799984400,
+              "equity": 0.9790866242274017,
+              "drawdown": 0.02091337577259833
+            },
+            {
+              "timestamp": 1799998800,
+              "equity": 0.9751895577413309,
+              "drawdown": 0.02481044225866913
+            }
+          ],
+          "by_regime": {
+            "DOWNTREND": {
+              "count": 1,
+              "mean_net_return": 0.0005843526072484851
+            },
+            "UPTREND": {
+              "count": 3,
+              "mean_net_return": -0.0014811009078709806
+            },
+            "RANGE": {
+              "count": 9,
+              "mean_net_return": -0.0023503083866197832
+            }
+          }
+        }
+      }
+    ],
+    "parameter_stability": "NOT_VALIDATED",
+    "calibration": "INSUFFICIENT_EVIDENCE",
+    "research_verdict": "UNVERIFIED",
+    "note": "These runs do not grant strategy eligibility. No calibrated consensus cohort exists."
+  },
+  "eligible_for_live": false
+}

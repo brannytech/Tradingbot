@@ -1,0 +1,24 @@
+{
+  "checked_date": "2026-10-09",
+  "method": "Codex in-app browser CUA / documented Playwright locators",
+  "environment": "isolated in-memory test server at 127.0.0.1:8766",
+  "scope": "Local browser verification only; no exchange financial reconciliation",
+  "status": "LOCAL_CHECKS_PASS",
+  "checks": [
+    "Owner login hides login overlay and displays six agents",
+    "All 14 dashboard views render; Overview and Backtesting tested separately from 12-view iteration",
+    "Gate evidence modal displays source hash and blockers",
+    "Emergency stop toggles backend state and visible warning",
+    "Risk fraction 0.004 persists after navigating away and back",
+    "Momentum backtest completes with 50 synthetic trades and explicit live eligibility false",
+    "WaveTrend, estimated profile, equity and drawdown views render",
+    "Desktop DOM viewport width 1265 equals document scroll width 1265",
+    "Mobile viewport requested 390x844; effective client/scroll width both 375",
+    "Agent evidence modal includes ESTIMATED_CANDLE_UNIFORM_ALLOCATION",
+    "Logout returns to login overlay",
+    "No browser error/warn log entries observed during tested workflows"
+  ],
+  "screenshots": "Desktop and mobile images inspected through browser tool; not persisted as local image files",
+  "standalone_playwright_suite": "NOT_RUN_LOCALLY",
+  "gate_9_verdict": "BLOCKED: exchange reconciliation and full automated CI validation outstanding"
+}

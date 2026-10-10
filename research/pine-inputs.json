@@ -1,0 +1,506 @@
+[
+  {
+    "name": "wtShow",
+    "kind": "bool",
+    "expression": "true, title='Show WaveTrend', group='WaveTrend Settings')",
+    "line": 20
+  },
+  {
+    "name": "wtBuyShow",
+    "kind": "bool",
+    "expression": "true, title='Show Buy dots', group='WaveTrend Settings')",
+    "line": 21
+  },
+  {
+    "name": "wtGoldShow",
+    "kind": "bool",
+    "expression": "true, title='Show Gold dots', group='WaveTrend Settings')",
+    "line": 22
+  },
+  {
+    "name": "wtSellShow",
+    "kind": "bool",
+    "expression": "true, title='Show Sell dots', group='WaveTrend Settings')",
+    "line": 23
+  },
+  {
+    "name": "wtDivShow",
+    "kind": "bool",
+    "expression": "true, title='Show Div. dots', group='WaveTrend Settings')",
+    "line": 24
+  },
+  {
+    "name": "vwapShow",
+    "kind": "bool",
+    "expression": "true, title='Show Fast WT', group='WaveTrend Settings')",
+    "line": 25
+  },
+  {
+    "name": "wtChannelLen",
+    "kind": "int",
+    "expression": "9, title='WT Channel Length', group='WaveTrend Settings')",
+    "line": 26
+  },
+  {
+    "name": "wtAverageLen",
+    "kind": "int",
+    "expression": "12, title='WT Average Length', group='WaveTrend Settings')",
+    "line": 27
+  },
+  {
+    "name": "wtMASource",
+    "kind": "source",
+    "expression": "ohlc4, title='WT MA Source', group='WaveTrend Settings')",
+    "line": 28
+  },
+  {
+    "name": "wtMALen",
+    "kind": "int",
+    "expression": "3, title='WT MA Length', group='WaveTrend Settings')",
+    "line": 29
+  },
+  {
+    "name": "obLevel",
+    "kind": "int",
+    "expression": "64, title='WT Overbought Level 1', group='WaveTrend Settings')",
+    "line": 32
+  },
+  {
+    "name": "obLevel2",
+    "kind": "int",
+    "expression": "75, title='WT Overbought Level 2', group='WaveTrend Settings')",
+    "line": 33
+  },
+  {
+    "name": "obLevel3",
+    "kind": "int",
+    "expression": "103, title='WT Overbought Level 3', group='WaveTrend Settings')",
+    "line": 34
+  },
+  {
+    "name": "osLevel",
+    "kind": "int",
+    "expression": "-57, title='WT Oversold Level 1', group='WaveTrend Settings')",
+    "line": 35
+  },
+  {
+    "name": "osLevel2",
+    "kind": "int",
+    "expression": "-65, title='WT Oversold Level 2', group='WaveTrend Settings')",
+    "line": 36
+  },
+  {
+    "name": "osLevel3",
+    "kind": "int",
+    "expression": "-75, title='WT Oversold Level 3', group='WaveTrend Settings')",
+    "line": 37
+  },
+  {
+    "name": "wtShowDiv",
+    "kind": "bool",
+    "expression": "true, title='Show WT Regular Divergences', group='WaveTrend Settings')",
+    "line": 40
+  },
+  {
+    "name": "wtShowHiddenDiv",
+    "kind": "bool",
+    "expression": "false, title='Show WT Hidden Divergences', group='WaveTrend Settings')",
+    "line": 41
+  },
+  {
+    "name": "showHiddenDiv_nl",
+    "kind": "bool",
+    "expression": "true, title='Not apply OB/OS Limits on Hidden Divergences', group='WaveTrend Settings')",
+    "line": 42
+  },
+  {
+    "name": "wtDivOBLevel",
+    "kind": "int",
+    "expression": "45, title='WT Bearish Divergence min', group='WaveTrend Settings')",
+    "line": 43
+  },
+  {
+    "name": "wtDivOSLevel",
+    "kind": "int",
+    "expression": "-69, title='WT Bullish Divergence min', group='WaveTrend Settings')",
+    "line": 44
+  },
+  {
+    "name": "wtDivOBLevel_addshow",
+    "kind": "bool",
+    "expression": "true, title='Show 2nd WT Regular Divergences', group='WaveTrend Settings')",
+    "line": 47
+  },
+  {
+    "name": "wtDivOBLevel_add",
+    "kind": "int",
+    "expression": "15, title='WT 2nd Bearish Divergence', group='WaveTrend Settings')",
+    "line": 48
+  },
+  {
+    "name": "wtDivOSLevel_add",
+    "kind": "int",
+    "expression": "-40, title='WT 2nd Bullish Divergence 15 min', group='WaveTrend Settings')",
+    "line": 49
+  },
+  {
+    "name": "rsiMFIShow",
+    "kind": "bool",
+    "expression": "true, title='Show MFI', group='MFI Settings')",
+    "line": 52
+  },
+  {
+    "name": "rsiMFIperiod",
+    "kind": "int",
+    "expression": "65, title='MFI Period', group='MFI Settings')",
+    "line": 53
+  },
+  {
+    "name": "rsiMFIMultiplier",
+    "kind": "float",
+    "expression": "280, title='MFI Area multiplier', group='MFI Settings')",
+    "line": 54
+  },
+  {
+    "name": "rsiMFIPosY",
+    "kind": "float",
+    "expression": "1, title='MFI Area Y Pos', group='MFI Settings')",
+    "line": 55
+  },
+  {
+    "name": "rsiShow",
+    "kind": "bool",
+    "expression": "true, title='Show RSI', group='RSI Settings')",
+    "line": 68
+  },
+  {
+    "name": "rsiSRC",
+    "kind": "source",
+    "expression": "close, title='RSI Source', group='RSI Settings')",
+    "line": 69
+  },
+  {
+    "name": "rsiLen",
+    "kind": "int",
+    "expression": "14, title='RSI Length', group='RSI Settings')",
+    "line": 70
+  },
+  {
+    "name": "rsiOversold",
+    "kind": "int",
+    "expression": "28, title='RSI Oversold', minval=0, maxval=100, group='RSI Settings')",
+    "line": 71
+  },
+  {
+    "name": "rsiOverbought",
+    "kind": "int",
+    "expression": "74, title='RSI Overbought', minval=0, maxval=100, group='RSI Settings')",
+    "line": 72
+  },
+  {
+    "name": "rsiShowDiv",
+    "kind": "bool",
+    "expression": "false, title='Show RSI Regular Divergences', group='RSI Settings')",
+    "line": 75
+  },
+  {
+    "name": "rsiShowHiddenDiv",
+    "kind": "bool",
+    "expression": "false, title='Show RSI Hidden Divergences', group='RSI Settings')",
+    "line": 76
+  },
+  {
+    "name": "rsiDivOBLevel",
+    "kind": "int",
+    "expression": "74, title='RSI Bearish Divergence min', group='RSI Settings')",
+    "line": 77
+  },
+  {
+    "name": "rsiDivOSLevel",
+    "kind": "int",
+    "expression": "28, title='RSI Bullish Divergence min', group='RSI Settings')",
+    "line": 78
+  },
+  {
+    "name": "stochShow",
+    "kind": "bool",
+    "expression": "true, title='Show Stochastic RSI', group='Stoch Settings')",
+    "line": 81
+  },
+  {
+    "name": "stochUseLog",
+    "kind": "bool",
+    "expression": "true, title=' Use Log?', group='Stoch Settings')",
+    "line": 82
+  },
+  {
+    "name": "stochAvg",
+    "kind": "bool",
+    "expression": "false, title='Use Average of both K & D', group='Stoch Settings')",
+    "line": 83
+  },
+  {
+    "name": "stochSRC",
+    "kind": "source",
+    "expression": "close, title='Stochastic RSI Source', group='Stoch Settings')",
+    "line": 84
+  },
+  {
+    "name": "stochLen",
+    "kind": "int",
+    "expression": "14, title='Stochastic RSI Length', group='Stoch Settings')",
+    "line": 85
+  },
+  {
+    "name": "stochRsiLen",
+    "kind": "int",
+    "expression": "14, title='RSI Length ', group='Stoch Settings')",
+    "line": 86
+  },
+  {
+    "name": "stochKSmooth",
+    "kind": "int",
+    "expression": "3, title='Stochastic RSI K Smooth', group='Stoch Settings')",
+    "line": 87
+  },
+  {
+    "name": "stochDSmooth",
+    "kind": "int",
+    "expression": "3, title='Stochastic RSI D Smooth', group='Stoch Settings')",
+    "line": 88
+  },
+  {
+    "name": "stochShowDiv",
+    "kind": "bool",
+    "expression": "false, title='Show Stoch Regular Divergences', group='Stoch Settings')",
+    "line": 91
+  },
+  {
+    "name": "stochShowHiddenDiv",
+    "kind": "bool",
+    "expression": "false, title='Show Stoch Hidden Divergences', group='Stoch Settings')",
+    "line": 92
+  },
+  {
+    "name": "tcLine",
+    "kind": "bool",
+    "expression": "false, title='Show Schaff TC line', group='Schaff Settings')",
+    "line": 95
+  },
+  {
+    "name": "tcSRC",
+    "kind": "source",
+    "expression": "close, title='Schaff TC Source', group='Schaff Settings')",
+    "line": 96
+  },
+  {
+    "name": "tclength",
+    "kind": "int",
+    "expression": "10, title='Schaff TC', group='Schaff Settings')",
+    "line": 97
+  },
+  {
+    "name": "tcfastLength",
+    "kind": "int",
+    "expression": "23, title='Schaff TC Fast Lenght', group='Schaff Settings')",
+    "line": 98
+  },
+  {
+    "name": "tcslowLength",
+    "kind": "int",
+    "expression": "50, title='Schaff TC Slow Length', group='Schaff Settings')",
+    "line": 99
+  },
+  {
+    "name": "tcfactor",
+    "kind": "float",
+    "expression": "0.5, title='Schaff TC Factor', group='Schaff Settings')",
+    "line": 100
+  },
+  {
+    "name": "sommiFlagShow",
+    "kind": "bool",
+    "expression": "false, title='Show Sommi flag', group='Sommi Settings')",
+    "line": 103
+  },
+  {
+    "name": "sommiShowVwap",
+    "kind": "bool",
+    "expression": "false, title='Show Sommi F. Wave', group='Sommi Settings')",
+    "line": 104
+  },
+  {
+    "name": "sommiVwapTF",
+    "kind": "string",
+    "expression": "'720', title='Sommi F. Wave timeframe', group='Sommi Settings')",
+    "line": 105
+  },
+  {
+    "name": "sommiVwapBearLevel",
+    "kind": "int",
+    "expression": "0, title='F. Wave Bear Level (less than)', group='Sommi Settings')",
+    "line": 106
+  },
+  {
+    "name": "sommiVwapBullLevel",
+    "kind": "int",
+    "expression": "0, title='F. Wave Bull Level (more than)', group='Sommi Settings')",
+    "line": 107
+  },
+  {
+    "name": "soomiFlagWTBearLevel",
+    "kind": "int",
+    "expression": "0, title='WT Bear Level (more than)', group='Sommi Settings')",
+    "line": 108
+  },
+  {
+    "name": "soomiFlagWTBullLevel",
+    "kind": "int",
+    "expression": "0, title='WT Bull Level (less than)', group='Sommi Settings')",
+    "line": 109
+  },
+  {
+    "name": "soomiRSIMFIBearLevel",
+    "kind": "int",
+    "expression": "0, title='Money flow Bear Level (less than)', group='Sommi Settings')",
+    "line": 110
+  },
+  {
+    "name": "soomiRSIMFIBullLevel",
+    "kind": "int",
+    "expression": "0, title='Money flow Bull Level (more than)', group='Sommi Settings')",
+    "line": 111
+  },
+  {
+    "name": "sommiDiamondShow",
+    "kind": "bool",
+    "expression": "false, title='Show Sommi diamond', group='Sommi Settings')",
+    "line": 114
+  },
+  {
+    "name": "sommiHTCRes",
+    "kind": "string",
+    "expression": "'60', title='HTF Candle Res. 1', group='Sommi Settings')",
+    "line": 115
+  },
+  {
+    "name": "sommiHTCRes2",
+    "kind": "string",
+    "expression": "'240', title='HTF Candle Res. 2', group='Sommi Settings')",
+    "line": 116
+  },
+  {
+    "name": "soomiDiamondWTBearLevel",
+    "kind": "int",
+    "expression": "0, title='WT Bear Level (More than)', group='Sommi Settings')",
+    "line": 117
+  },
+  {
+    "name": "soomiDiamondWTBullLevel",
+    "kind": "int",
+    "expression": "0, title='WT Bull Level (Less than)', group='Sommi Settings')",
+    "line": 118
+  },
+  {
+    "name": "macdWTColorsShow",
+    "kind": "bool",
+    "expression": "false, title='Show MACD Colors', group='MACD Settings')",
+    "line": 121
+  },
+  {
+    "name": "macdWTColorsTF",
+    "kind": "string",
+    "expression": "'240', title='MACD Colors MACD TF', group='MACD Settings')",
+    "line": 122
+  },
+  {
+    "name": "darkMode",
+    "kind": "bool",
+    "expression": "false, title='Dark mode', group='Mode Settings')",
+    "line": 124
+  },
+  {
+    "name": "rsiobcolor",
+    "kind": "color",
+    "expression": "color.new(#e13e3e, 0), 'RSI OverBought', group='Color Settings')",
+    "line": 272
+  },
+  {
+    "name": "rsioscolor",
+    "kind": "color",
+    "expression": "color.new(#3ee145, 0), 'RSI OverSold', group='Color Settings')",
+    "line": 273
+  },
+  {
+    "name": "rsinacolor",
+    "kind": "color",
+    "expression": "color.new(#c33ee1, 0), 'RSI InBetween', group='Color Settings')",
+    "line": 274
+  },
+  {
+    "name": "rsiMFIColorAbove",
+    "kind": "color",
+    "expression": "color.new(#3ee145, 0), 'MFI Color > 0', group='Color Settings')",
+    "line": 279
+  },
+  {
+    "name": "rsiMFIColorBelow",
+    "kind": "color",
+    "expression": "color.new(#ff3d2e, 0), 'MFI Color < 0', group='Color Settings')",
+    "line": 280
+  },
+  {
+    "name": "WTBearDivColorDown",
+    "kind": "color",
+    "expression": "color.new(#e60000, 0), 'WT Bear Div', group='Color Settings')",
+    "line": 310
+  },
+  {
+    "name": "wtBullDivColorUp",
+    "kind": "color",
+    "expression": "color.new(#00e676, 0), 'WT Bull Div', group='Color Settings')",
+    "line": 311
+  },
+  {
+    "name": "signalcolorup",
+    "kind": "color",
+    "expression": "color.new(#00e676, 0), 'WT Buy Dot', group='Color Settings')",
+    "line": 343
+  },
+  {
+    "name": "signalcolordown",
+    "kind": "color",
+    "expression": "color.new(#ff5252, 0), 'WT Sell Dot', group='Color Settings')",
+    "line": 344
+  },
+  {
+    "name": "colorWT1blue",
+    "kind": "color",
+    "expression": "color.new(#4994ec, 0), 'WT1 Fill', group='Color Settings')",
+    "line": 379
+  },
+  {
+    "name": "colorWT2purple",
+    "kind": "color",
+    "expression": "color.new(#1f1559, 0), 'WT2 Fill', group='Color Settings')",
+    "line": 380
+  },
+  {
+    "name": "VWAPColor",
+    "kind": "color",
+    "expression": "color.new(#ffffff, 50), 'VWAP', group='Color Settings')",
+    "line": 387
+  },
+  {
+    "name": "stochkcolor",
+    "kind": "color",
+    "expression": "color.new(#21baf3, 70), 'Stoch K', group='Color Settings')",
+    "line": 413
+  },
+  {
+    "name": "stochdcolor",
+    "kind": "color",
+    "expression": "color.new(#673ab7, 90), 'Stoch D', group='Color Settings')",
+    "line": 414
+  }
+]

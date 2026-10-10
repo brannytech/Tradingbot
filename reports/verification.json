@@ -1,0 +1,394 @@
+{
+  "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+  "checked_at": 1791600033,
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "command": "python scripts/verify.py",
+  "results": {
+    "passed": 79,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0
+  },
+  "tests": [
+    {
+      "test": "tests.test_catalog.CatalogTests.test_arbitrary_public_spot_pair_validated_by_exchange_metadata",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_catalog.CatalogTests.test_exact_symbol_and_finite_precision",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_catalog.CatalogTests.test_full_pagination_and_deduplication",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_catalog.CatalogTests.test_option_all_base_coins",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_catalog.CatalogTests.test_repeated_cursor_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_catalog.CatalogTests.test_spot_all_quotes_without_invalid_pagination_parameters",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_catalog.CatalogTests.test_sync_persistence_and_failed_refresh_retains_cache",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_account_creation_requires_valid_explicit_selection_session",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_callback_state_and_expiry_validation",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_demo_balance_positions_and_secret_redaction",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_demo_dns_failure_is_distinguished_from_invalid_key",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_demo_failure_never_retains_stale_balance",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_demo_provider_error_is_numeric_and_redacted",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_demo_reads_all_position_pages",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_demo_tls_failure_never_claims_invalid_credentials",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_disconnect_cancels_inflight_token_exchange",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_dns_failure_does_not_offer_broken_authorization_link",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_position_pagination_failure_does_not_present_partial_exposure",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_token_exchange_failure_is_redacted",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_connections.ConnectionTests.test_valid_callback_lists_accounts_without_automatic_selection",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_foundation.FoundationTests.test_auth_and_csrf",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_foundation.FoundationTests.test_auth_rate_limit",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_foundation.FoundationTests.test_durable_duplicate_prevention",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_foundation.FoundationTests.test_live_is_locked",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_foundation.FoundationTests.test_migration_restart_audit",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_foundation.FoundationTests.test_secret_repr",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_gates.GateTests.test_prerequisite_failure_and_live_lock",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_gates.GateTests.test_source_change_invalidates_pass",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_demo_isolation_and_signing",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_hmac_signs_exact_timestamp_window_and_encoded_query",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_invalid_and_missing_data",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_precision_rounds_down",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_private_redirect_is_not_followed",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_public_adapter_cannot_order",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_rate_limit_retries",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_resample_only_complete",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_market.MarketTests.test_unclosed_bar_removed",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_risk.RiskTests.test_concurrent_duplicate_orders",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_risk.RiskTests.test_limits_fail_closed",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_risk.RiskTests.test_no_exchange_environment_can_submit",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_risk.RiskTests.test_size_capped_without_vote_multiplier",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_risk.RiskTests.test_timeout_unknown_no_retry_restart_recovery",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_auth_no_secret_leak",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_catalog_sync_requires_csrf_and_exposes_cached_state",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_demo_setup_owner_csrf_and_secret_redaction",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_health_and_page",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_live_and_gate_mutation_locked",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_origin_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_reload_can_recover_csrf_only_with_owner_cookie",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_stop_persists_and_requires_csrf",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_server.ServerTests.test_worker_failure_clears_snapshot",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_setup.SetupTests.test_only_hash_is_persisted",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_setup.SetupTests.test_short_setup_password_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.AgentTests.test_each_agent_reproducible_and_abstains_on_bad_data",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.AgentTests.test_no_spot_short",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.AgentTests.test_orderflow_missing_stale_and_crossed",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.AgentTests.test_warmup_and_no_future_influence",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.IndicatorTests.test_actual_money_flow_formula",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.IndicatorTests.test_cross_direction",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.IndicatorTests.test_divergence_available_at_confirmation",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.IndicatorTests.test_flat_data_undefined_without_division",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.IndicatorTests.test_indicator_prefix_invariance",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.IndicatorTests.test_known_averages_and_rsi",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.ProfileTests.test_point_volume_and_trade_mass",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.ProfileTests.test_range_modes_and_common_grid",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_strategies.ProfileTests.test_uniform_allocation_conserves_mass",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.BacktestTests.test_gap_stop_and_truncated_horizon",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.BacktestTests.test_independent_walk_forward_no_overlaps",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.BacktestTests.test_multiple_testing_widens_interval",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.BacktestTests.test_next_open_stop_first_and_costs",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.BacktestTests.test_overlap_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.BacktestTests.test_profit_factor_and_drawdown",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_duplicate_agents_and_negative_prices",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_high_win_negative_expectancy_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_missing_opposing_stale_failed_unvalidated",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_point_estimate_not_enough",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_sufficient_test_evidence_candidate_and_correlation",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_synthetic_and_expired_calibration_rejected",
+      "status": "PASS"
+    },
+    {
+      "test": "tests.test_validation.ConsensusTests.test_unanimity_cannot_make_95_percent",
+      "status": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "command": [
+        "C:\\ProgramData\\anaconda3\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "tradingbot",
+        "tests",
+        "scripts"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "C:\\ProgramData\\anaconda3\\python.exe",
+        "-m",
+        "pyflakes",
+        "tradingbot",
+        "tests",
+        "scripts"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "C:\\ProgramData\\anaconda3\\python.exe",
+        "-m",
+        "mypy",
+        "tradingbot",
+        "--check-untyped-defs",
+        "--ignore-missing-imports",
+        "--follow-imports=skip"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "output": "Success: no issues found in 19 source files\n"
+    },
+    {
+      "command": [
+        "C:\\ProgramData\\anaconda3\\python.exe",
+        "scripts/audit_pine.py"
+      ],
+      "status": "PASS",
+      "exit_code": 0,
+      "output": "{\"inputs\": 84, \"lookahead_on_lines\": [241, 242, 243, 244], \"reference_parity\": \"BLOCKED: no reference vectors\"}\n"
+    },
+    {
+      "command": "runtime AST security scan",
+      "status": "PASS",
+      "output": [],
+      "limitations": "Narrow static scan, not a comprehensive security audit"
+    },
+    {
+      "command": "runtime dependency inventory",
+      "status": "PASS",
+      "output": "Core runtime uses Python standard library only; WebSocket support is optional",
+      "limitations": "Optional websocket-client advisory audit and production security review remain outstanding"
+    }
+  ]
+}

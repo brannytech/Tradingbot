@@ -1,0 +1,442 @@
+[
+  {
+    "id": 0,
+    "title": "Repository Discovery",
+    "status": "PASS",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "research/baseline.md"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py"
+    ],
+    "results": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Original repository contained only Pine source; no baseline application/tests"
+    ],
+    "dependencies": [],
+    "next_action": "Foundation verification",
+    "progression_decision": "ALLOW"
+  },
+  {
+    "id": 1,
+    "title": "Architecture and Security",
+    "status": "PASS",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/security.py",
+      "tradingbot/storage.py",
+      "tradingbot/server.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_foundation",
+      "tests.test_server",
+      "tests.test_setup",
+      "tests.test_connections"
+    ],
+    "results": {
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Local deployment only; production TLS and security review not complete"
+    ],
+    "dependencies": [
+      0
+    ],
+    "next_action": "Continue independent market/research work",
+    "progression_decision": "ALLOW"
+  },
+  {
+    "id": 2,
+    "title": "Bybit Connectivity",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/bybit.py",
+      "reports/connectivity.json"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_market"
+    ],
+    "results": {
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Bybit DNS failed outside sandbox; Spot/perpetual public ingestion and WebSocket capture not externally verified"
+    ],
+    "dependencies": [
+      1
+    ],
+    "next_action": "Restore network connectivity and run python -m tradingbot probe; capture real WebSocket data",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 3,
+    "title": "Strategy Research",
+    "status": "PASS",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "research/pine-audit.md",
+      "research/pine-inputs.json",
+      "research/strategies.md",
+      "research/video-inventory.json"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_strategies.IndicatorTests"
+    ],
+    "results": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Frankie transcripts unavailable; no Frankie-derived rule implemented",
+      "TradingView parity vectors unavailable"
+    ],
+    "dependencies": [
+      0
+    ],
+    "next_action": "Retrieve timestamped transcripts and parity vectors",
+    "progression_decision": "ALLOW"
+  },
+  {
+    "id": 4,
+    "title": "Individual Strategy Agents",
+    "status": "PASS",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/agents.py",
+      "tradingbot/indicators.py",
+      "tradingbot/profile.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_strategies"
+    ],
+    "results": {
+      "passed": 13,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Experimental candidates only; individual implementation PASS does not grant historical/live validation",
+      "Sommi HTF calculations are causal adaptations; proprietary parity unverified"
+    ],
+    "dependencies": [
+      1,
+      3
+    ],
+    "next_action": "Evaluate on authentic historical data",
+    "progression_decision": "ALLOW"
+  },
+  {
+    "id": 5,
+    "title": "Statistical Validation",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/backtest.py",
+      "tradingbot/validation.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_validation.BacktestTests"
+    ],
+    "results": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Only synthetic exploratory backtests available; no independent authentic OOS/calibrated consensus cohort",
+      "Historical funding/spread, parameter stability and regime validation incomplete"
+    ],
+    "dependencies": [
+      4,
+      2
+    ],
+    "next_action": "Collect data, freeze strategy versions, run independent validation",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 6,
+    "title": "Consensus Engine",
+    "status": "PASS",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/consensus.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_validation.ConsensusTests"
+    ],
+    "results": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 0
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Logic validated; deployed evidence remains insufficient and agents ineligible"
+    ],
+    "dependencies": [
+      4
+    ],
+    "next_action": "Retain NO TRADE until Gate 5 supplies evidence",
+    "progression_decision": "ALLOW"
+  },
+  {
+    "id": 7,
+    "title": "Risk and Execution Safety",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/risk.py",
+      "tradingbot/execution.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_risk"
+    ],
+    "results": {
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Paper risk/idempotency/recovery tests pass; authenticated partial fills, protective order lifecycle and exchange reconciliation not implemented/verified",
+      "No demo or live write adapter enabled"
+    ],
+    "dependencies": [
+      1,
+      6
+    ],
+    "next_action": "Complete exchange execution safety after prerequisite validation",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 8,
+    "title": "Demo Trading",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/bybit.py:DemoAccount",
+      "reports/demo.json"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_market.MarketTests.test_demo_isolation"
+    ],
+    "results": {
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "No demo credentials; no authenticated demo order/fill lifecycle; prerequisites 2/5/7 incomplete"
+    ],
+    "dependencies": [
+      2,
+      5,
+      6,
+      7
+    ],
+    "next_action": "Provide demo configuration only after prior gates pass",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 9,
+    "title": "Dashboard Readiness",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/static/index.html",
+      "reports/ui-e2e.json",
+      "tests/e2e.spec.mjs"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_server"
+    ],
+    "results": {
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Local desktop/mobile browser checks completed; exchange financial reconciliation unavailable",
+      "Standalone Playwright CI suite has not been run locally"
+    ],
+    "dependencies": [
+      1
+    ],
+    "next_action": "Run automated browser suite and verify authenticated exchange dashboard data",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 10,
+    "title": "Reliability and Security",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tests/test_risk.py",
+      "tests/test_server.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py",
+      "tests.test_risk",
+      "tests.test_server"
+    ],
+    "results": {
+      "passed": 14,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Partial failure tests only; authenticated exchange outage/partial-fill scenarios and production security audit incomplete"
+    ],
+    "dependencies": [
+      7,
+      8,
+      9
+    ],
+    "next_action": "Complete Gates 7/8/9 and comprehensive security testing",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 11,
+    "title": "Pre-Live Readiness",
+    "status": "BLOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "research/readiness.md"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py"
+    ],
+    "results": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Mandatory readiness gates 2/5/7/8/9/10 are incomplete"
+    ],
+    "dependencies": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "next_action": "Keep live activation locked",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  },
+  {
+    "id": 12,
+    "title": "Live Activation",
+    "status": "LOCKED",
+    "source_hash": "037a7e977abde94adf2455772ac72a91dfb8197b22d0df61d2d9fd1687d3105a",
+    "implemented_components": [
+      "tradingbot/security.py",
+      "tradingbot/server.py"
+    ],
+    "tests_executed": [
+      "python scripts/verify.py"
+    ],
+    "results": {
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "blocked": 1
+    },
+    "evidence": [
+      "reports/verification.json",
+      "reports/tests.txt"
+    ],
+    "known_issues": [
+      "Owner activation unavailable until all preceding mandatory gates pass; no production write transport exists"
+    ],
+    "dependencies": [
+      11
+    ],
+    "next_action": "Do not activate live trading",
+    "progression_decision": "STOP_DEPENDENT_WORK"
+  }
+]

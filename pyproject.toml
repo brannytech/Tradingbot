@@ -1,0 +1,19 @@
+[project]
+name = "strategy-intelligence"
+version = "0.1.0"
+description = "Fail-closed, paper-only strategy research for Bybit markets"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+strategy-intelligence = "tradingbot.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tradingbot*"]
+
+[tool.setuptools.package-data]
+tradingbot = ["static/*.html"]

@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-09",
+  "channel": "https://www.youtube.com/@FrankieCandles",
+  "streams": "https://www.youtube.com/@FrankieCandles/streams",
+  "retrieval_status": "BLOCKED: Chrome unavailable on both connection attempts",
+  "scope": "Metadata discovery only. No transcript analysed. No source-derived executable rules.",
+  "videos": [
+    {"title": "Best Way To Make Money Trading! (Understanding Volume Profile!)", "url": "https://www.youtube.com/watch?v=9H34bkyULow", "published": "2023-01-27", "evidence_type": "YouTube indexed metadata", "timestamps": [], "rules": [], "status": "UNVERIFIED"},
+    {"title": "Easiest Way To Find The Best Trade Entries (Volume Profile)", "url": "https://www.youtube.com/watch?v=YfHwwggYRrg", "published": null, "evidence_type": "YouTube indexed metadata", "timestamps": [], "rules": [], "status": "UNVERIFIED"}
+  ],
+  "unverified_claims": ["Creator performance claims are not independent validation."],
+  "next_action": "Retrieve complete visible timestamped transcripts through connected Chrome; extract and compare explicit rules."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "BLOCKED",
+  "source": "AUTHENTIC_PUBLIC_REQUEST",
+  "checked_at": 1791585999,
+  "production_orders_sent": 0,
+  "checks": [],
+  "error_type": "URLError",
+  "limitations": [
+    "External public connectivity failed; no validation claimed"
+  ]
+}
